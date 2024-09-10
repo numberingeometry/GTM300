@@ -8,4 +8,6 @@ $$
 \mathrm{Spec}(A/I) \to \mathrm{Spec}(A)
 $$
 
-is a closed embedding with image $V(I)$. Here $V(I)$ is defined as (1.6). [Solution](./exercise1.1.md)
+is a closed embedding with image $V(I)$. Here $V(I)$ is defined as (1.6). 
+
+[Solution](./exercise1.1.md)
