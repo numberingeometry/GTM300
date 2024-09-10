@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: An Introduction to Automorphic Representations
-author: Jeyce Gets and Heekyoung Hahn
+author: Jayce Getz and Heekyoung Hahn
 logo: gtm300.png
 
 # Force re-execution of notebooks on each build.
