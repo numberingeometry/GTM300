@@ -1,6 +1,6 @@
 # GTM300 Project
 
-This is a repository for the webpage that gathers solutions of the book [An Introduction to Automorphic Representations: with a view toward trace formulae](https://link.springer.com/book/10.1007/978-3-031-41153-3) by [Jayce R. Getz](https://sites.duke.edu/jgetz/) and [Heekyoung Hahn](https://sites.duke.edu/heekyounghahn/) (Springer GTM300).
+This is a repository for the [webpage](https://numberingeometry.github.io/GTM300/intro.html) that gathers solutions of the book [An Introduction to Automorphic Representations: with a view toward trace formulae](https://link.springer.com/book/10.1007/978-3-031-41153-3) by [Jayce R. Getz](https://sites.duke.edu/jgetz/) and [Heekyoung Hahn](https://sites.duke.edu/heekyounghahn/) (Springer GTM300).
 
 ## Requirements
 
@@ -25,3 +25,27 @@ Solutions for each problem (exercise) correspond to a single markdown file `chap
     ```
 
 3. Make a pull request to the main branch.
+
+## How to publish (for the maintainers)
+
+Requires `ghp-import`. Install with `pip install ghp-import` if it is not installed yet.
+
+0. Make sure that the new html files are built out of jupyterbook. Skip if you already did.
+    ```
+    jupyter-book build gtm300/
+    ```
+
+1. Switch to the `main` branch if needed.
+    ```
+    git checkout main
+    ```
+
+2. Move to the `gtm300/` directory.
+    ```
+    cd gtm300/
+    ```
+
+3. Call `ghp-import`. This will push new files to the `gh-pages` branch and publish it online, which can be viewed at https://numberingeometry.github.io/GTM300/intro.html.
+    ```
+    ghp-import -n -p -f _build/html
+    ```
