@@ -4,12 +4,12 @@ This is a repository for the [webpage](https://numberingeometry.github.io/GTM300
 
 ## Requirements
 
-- `jupyter-book`
-- (Optional) `ghp-import`
+- `jupyter-book`, use `pip install jupyter-book`
+- (Optional, for maintainers) `ghp-import`, use `pip install ghp-import`
 
 ## How to contribute
 
-Solutions for each problem (exercise) correspond to a single markdown file `chapter{number}/problem{number}.md`, which is the only thing you may need to edit if you want to upload your own solution.
+Solutions for each problem (exercise) correspond to a single markdown file `chapter{number}/exercise{number.number}.md`, which is the only thing you may need to edit if you want to upload your own solution.
 
 0. Make a new branch for pull request - do not work on the `main` branch.
     ```
