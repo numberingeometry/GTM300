@@ -4,4 +4,4 @@
 format: jb-book
 root: intro
 chapters:
-- file: solutions/chapter1
+- file: chapter1/chapter1
