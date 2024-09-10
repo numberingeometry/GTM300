@@ -49,3 +49,5 @@ Requires `ghp-import`. Install with `pip install ghp-import` if it is not instal
     ```
     ghp-import -n -p -f _build/html
     ```
+
+You should **NOT** update the codes on the `gh-pages` branch manually.
