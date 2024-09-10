@@ -1,3 +1,5 @@
+# Chapter 1
+
 **Problem 1.** Prove that a morphism of affine schemes induces a continuous map of
 the underlying topological spaces. If $I$ is an ideal of $A$, prove that the map
 of topological spaces induced by the morphism
