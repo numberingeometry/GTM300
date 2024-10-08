@@ -9,8 +9,5 @@ $$
 is a closed embedding with image $V(I)$. Here $V(I)$ is defined as (1.6).
 
 **Solution.**[Seewoo]
-
-TEST
-
 Let $\pi: A \to A/I$ be the natural projection map, so that the above induced map is $\iota = \pi^{-1}$.
 A prime ideal of $A/I$ is naturally identified with a prime ideal of $A$ containing $I$; for $\mathfrak{p} \in \mathrm{Spec}(A/I)$, $\pi^{-1}(\mathfrak{p}) \subset A$ is a prime ideal containing $I$.
